@@ -13,12 +13,12 @@ $ npm install view-get-dest --save
 ## Usage
 
 ```js
-var viewGetDest = require('view-get-dest');
+var getDest = require('view-get-dest');
 ```
 
 ## API
 
-### [.view-get-dest](index.js#L34)
+### [getDest](index.js#L33)
 
 Returns a plugin function that adds a `dest` getter/setter to views. Getter searches for properties that may contain the actual `dest`. By default the properties are `data.permalink`, `data.dest`, and `path`. See [assemble-permalinks](https://github.com/assemble/assemble-permalinks) for details on how to set `data.permalink`.
 
@@ -39,7 +39,7 @@ var config = {
 app.use(getDest(config));
 ```
 
-### [.dest](index.js#L54)
+### [.dest](index.js#L53)
 
 `.dest` getter/setter on `view` instances
 
@@ -85,7 +85,7 @@ $ npm install -d && npm test
 
 ## License
 
-verb © 2016, [Brian Woodward](https://github.com/doowb).
+Copyright © 2016, [Brian Woodward](https://github.com/doowb).
 Released under the [MIT license](https://github.com/doowb/view-get-dest/blob/master/LICENSE).
 
 ***
