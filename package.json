@@ -19,10 +19,32 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+  "dependencies": {
+    "get-first": "^0.1.2"
   },
-  "keywords": []
+  "devDependencies": {
+    "assemble": "^0.10.0",
+    "assemble-permalinks": "^0.4.1",
+    "gulp-format-md": "^0.1.7",
+    "mocha": "*"
+  },
+  "keywords": [],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "reflinks": [
+      "verb",
+      "assemble-permalinks"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
