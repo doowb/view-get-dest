@@ -28,7 +28,25 @@
     "gulp-format-md": "^0.1.7",
     "mocha": "*"
   },
-  "keywords": [],
+  "keywords": [
+    "assemble",
+    "assemble-core",
+    "assemble-plugin",
+    "collections",
+    "core",
+    "dest",
+    "destination",
+    "path",
+    "permalink",
+    "permalinks",
+    "plugin",
+    "templates",
+    "view",
+    "view-dest",
+    "view-path",
+    "view-permalink",
+    "views"
+  ],
   "verb": {
     "run": true,
     "toc": false,
