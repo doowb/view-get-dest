@@ -1,0 +1,28 @@
+{
+  "name": "view-get-dest",
+  "description": "Assemble plugin to add a dest property getter to views.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/view-get-dest",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "doowb/view-get-dest",
+  "bugs": {
+    "url": "https://github.com/doowb/view-get-dest/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
