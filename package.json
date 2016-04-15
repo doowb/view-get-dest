@@ -1,6 +1,6 @@
 {
   "name": "view-get-dest",
-  "description": "Assemble plugin to add a dest property getter to views.",
+  "description": "Assemble plugin to add a dest property to views.",
   "version": "0.1.0",
   "homepage": "https://github.com/doowb/view-get-dest",
   "author": "Brian Woodward (https://github.com/doowb)",

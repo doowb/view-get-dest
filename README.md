@@ -1,6 +1,6 @@
 # view-get-dest [![NPM version](https://img.shields.io/npm/v/view-get-dest.svg)](https://www.npmjs.com/package/view-get-dest) [![Build Status](https://img.shields.io/travis/doowb/view-get-dest.svg)](https://travis-ci.org/doowb/view-get-dest)
 
-> Assemble plugin to add a dest property getter to views.
+> Assemble plugin to add a dest property to views.
 
 ## Install
 
