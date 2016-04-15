@@ -24,21 +24,20 @@ var first = require('get-first');
  * app.use(getDest(config));
  * ```
  *
- * @name view-get-dest
  * @param  {Object} `config` Plugin configuration object.
  * @param  {String|Array} `config.props` Array of properties to search on the view for the dest property. Defaults to `['data.permalink', 'data.dest', 'path']`.
  * @return {Function} Plugin function to be passed to `app.use`
  * @api public
  */
 
-module.exports = function(config) {
+module.exports = function getDest(config) {
 
   config = normalize(config);
   var props = arrayify(config.props || ['data.permalink', 'data.dest', 'path']);
 
-  return function getDest(view) {
+  return function plugin(view) {
     if (this.isRegistered('view-get-dest')) return;
-    if (!view.isView && !view.isItem) return getDest;
+    if (!view.isView && !view.isItem) return plugin;
 
     /**
      * `.dest` getter/setter on `view` instances
